@@ -1,0 +1,110 @@
+@charset "utf-8";
+body{
+	background-color:#fefbd8;
+	margin:0;
+	font-family:Georgia;
+	font-size:16px;
+}
+.wrapper{
+	width:80%;
+	margin:auto;
+}
+.header{
+	float:center;
+}
+.nav{
+	
+	height:40px;
+	clear:both;
+	text-align:center;
+	
+}
+.nav ul{
+	
+	float:left;
+	margin:0;
+	width:100%;
+	padding:0;
+
+}
+.nav ul li{
+	display:inline;
+}
+.nav ul li a{
+	float:center;
+	padding: 20px 10px;
+	font-family:Georgia;
+	text-transform:uppercase;
+	
+}
+.nav a:link{
+	text-decoration:none;
+	color:#000;
+	
+}
+.nav a:hover{
+	background-color:#563f46;
+	color:white;
+	border-radius:10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+}
+
+<!-- gallery-->
+div.img {
+    margin: 5px;
+    border: 5px solid #ccc;
+    width: 180px;
+}
+
+div.img img {
+  
+    width: 33%;
+    height: 43%;
+	float:left;
+	padding: 10px;
+}
+
+.container{
+	margin:auto;
+	width:100%;
+}
+<!--table opening hours-->
+table {
+    font-family:arial;
+    width: 100%;
+    border:20px;
+}
+
+td, th {
+    border: 1px dotted  #dddddd;
+    text-align:left;
+    padding: 5px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd ;
+}
+<!--footer-->
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:grey;
+  height: 1px;
+}
